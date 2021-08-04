@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+#topo{
+  height: 20vh;
+  background-color: hotpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid firebrick;
+  margin-bottom: 20px;
+}
+#titulo {
+  color: firebrick;
+  font-family: 'Arial', sans-serif;
+  font-size: 80px;
+}
+.box-dicas{
+  width: 70vw;
+
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+  background-color: lightPink;
+
+}
+.box-dicas h3{
+  color: red;
+  font-weight: 700;
+}
+p{
+  color: darkslategray;
+}
+
+.box-noticia{
+  background-color: lightPink;
+  font-family: arial;
+  
+  width: 23vw;
+  margin: 10px;
+}
+
+.centralizado{
+ 
+ margin-left: auto;
+ margin-right: auto;
+ width: 71vw;
+ padding-top: 10px;
+ padding-bottom: 10px;
+
+}
+
+.secao-noticias{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+
+.img-box-noticia{
+  width: 100%;
+}
+
+.titulo-box{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
